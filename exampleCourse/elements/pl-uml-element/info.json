@@ -1,0 +1,11 @@
+{
+    "controller": "pl-uml-element.py",
+    "dependencies": {
+        "elementScripts": [
+            "graph.js", "renderer.js"
+        ],
+        "elementStyles": [
+            "styles.css"
+        ]
+    }
+}
