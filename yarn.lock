@@ -3664,7 +3664,7 @@ __metadata:
     on-finished: "npm:^2.4.1"
     on-headers: "npm:^1.0.2"
     openai: "npm:^4.57.0"
-    openid-client: "npm:^5.6.5"
+    openid-client: "npm:^6.1.7"
     parse5: "npm:^7.1.2"
     passport: "npm:^0.7.0"
     passport-azure-ad: "npm:^4.3.5"
@@ -10453,17 +10453,17 @@ __metadata:
   languageName: node
   linkType: hard
 
-"jose@npm:^4.15.5":
-  version: 4.15.5
-  resolution: "jose@npm:4.15.5"
-  checksum: 10c0/9f208492f55ae9c547fd407c36f67ec3385051b5ca390e24f5449740f17359640b3f96fabfd38bc132cc4292b964c31b921bf356253373b1bd3eb6df799b7433
-  languageName: node
-  linkType: hard
-
 "jose@npm:^5.8.0":
   version: 5.8.0
   resolution: "jose@npm:5.8.0"
   checksum: 10c0/f4dba1bbc41c46ae549840c3f99db07e72c1a191dffeef46bbd81c5fdc01827bb4be4d9f3e77d37887ffb56c57bd276e5fde314e6e790db19809008e47004c48
+  languageName: node
+  linkType: hard
+
+"jose@npm:^5.9.6":
+  version: 5.9.6
+  resolution: "jose@npm:5.9.6"
+  checksum: 10c0/d6bcd8c7d655b5cda8e182952a76f0c093347f5476d74795405bb91563f7ab676f61540310dd4b1531c60d685335ceb600571a409551d2cbd2ab3e9f9fbf1e4d
   languageName: node
   linkType: hard
 
@@ -10997,7 +10997,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"lru-cache@npm:6.0.0, lru-cache@npm:^6.0.0":
+"lru-cache@npm:6.0.0":
   version: 6.0.0
   resolution: "lru-cache@npm:6.0.0"
   dependencies:
@@ -12317,6 +12317,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"oauth4webapi@npm:^3.1.4":
+  version: 3.1.4
+  resolution: "oauth4webapi@npm:3.1.4"
+  checksum: 10c0/81e471750f4903121efcef4edb1b73d725ae6d3b9646a0febd45e29ed05b62faba14a69e433181eae441913684a02d681c4e561dcac578de9cb45dd719f53464
+  languageName: node
+  linkType: hard
+
 "oauth@npm:0.9.15":
   version: 0.9.15
   resolution: "oauth@npm:0.9.15"
@@ -12328,13 +12335,6 @@ __metadata:
   version: 4.1.1
   resolution: "object-assign@npm:4.1.1"
   checksum: 10c0/1f4df9945120325d041ccf7b86f31e8bcc14e73d29171e37a7903050e96b81323784ec59f93f102ec635bcf6fa8034ba3ea0a8c7e69fa202b87ae3b6cec5a414
-  languageName: node
-  linkType: hard
-
-"object-hash@npm:^2.2.0":
-  version: 2.2.0
-  resolution: "object-hash@npm:2.2.0"
-  checksum: 10c0/1527de843926c5442ed61f8bdddfc7dc181b6497f725b0e89fcf50a55d9c803088763ed447cac85a5aa65345f1e99c2469ba679a54349ef3c4c0aeaa396a3eb9
   languageName: node
   linkType: hard
 
@@ -12356,13 +12356,6 @@ __metadata:
   version: 1.1.2
   resolution: "obuf@npm:1.1.2"
   checksum: 10c0/520aaac7ea701618eacf000fc96ae458e20e13b0569845800fc582f81b386731ab22d55354b4915d58171db00e79cfcd09c1638c02f89577ef092b38c65b7d81
-  languageName: node
-  linkType: hard
-
-"oidc-token-hash@npm:^5.0.3":
-  version: 5.0.3
-  resolution: "oidc-token-hash@npm:5.0.3"
-  checksum: 10c0/d0dc0551406f09577874155cc83cf69c39e4b826293d50bb6c37936698aeca17d4bcee356ab910c859e53e83f2728a2acbd041020165191353b29de51fbca615
   languageName: node
   linkType: hard
 
@@ -12431,15 +12424,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"openid-client@npm:^5.6.5":
-  version: 5.6.5
-  resolution: "openid-client@npm:5.6.5"
+"openid-client@npm:^6.1.7":
+  version: 6.1.7
+  resolution: "openid-client@npm:6.1.7"
   dependencies:
-    jose: "npm:^4.15.5"
-    lru-cache: "npm:^6.0.0"
-    object-hash: "npm:^2.2.0"
-    oidc-token-hash: "npm:^5.0.3"
-  checksum: 10c0/4308dcd37a9ffb1efc2ede0bc556ae42ccc2569e71baa52a03ddfa44407bf403d4534286f6f571381c5eaa1845c609ed699a5eb0d350acfb8c3bacb72c2a6890
+    jose: "npm:^5.9.6"
+    oauth4webapi: "npm:^3.1.4"
+  checksum: 10c0/195d26897bf6eb95cfd5b9e91e8bcac46c56b0570713cef6f74b78f9d3a23df0869b2f26e7d78ae6d511e8f3b50f33298aa1bdc7bc32a46d41ca7d4ea10df460
   languageName: node
   linkType: hard
 
