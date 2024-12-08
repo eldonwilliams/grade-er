@@ -19,7 +19,7 @@
 # the required security escalation so we just apt as previously but pointing
 # at a richer and larger repository with complete CRAN coverage.)
 
-FROM eddelbuettel/r2u:22.04
+FROM eddelbuettel/r2u:24.04
 
 # Needed to properly handle UTF-8
 ENV PYTHONIOENCODING=UTF-8
